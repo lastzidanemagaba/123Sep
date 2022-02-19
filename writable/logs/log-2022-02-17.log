@@ -1,0 +1,364 @@
+CRITICAL - 2022-02-17 00:53:23 --> Class "App\Controllers\Google_Client" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 00:53:37 --> Class "App\Controllers\Google_Client" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 00:54:54 --> Class "App\Controllers\Google_Client" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 00:55:39 --> Class "App\Controllers\Google_Client" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 00:56:12 --> Call to undefined function Google_Client()
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 00:58:23 --> Class "App\Controllers\Google_Service_Oauth2" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 00:58:45 --> Class "App\Controllers\Users" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 00:59:52 --> syntax error, unexpected identifier "Users"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('redirect')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('redirect')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 01:00:32 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 41)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 01:10:40 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-17 01:11:25 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 43)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 01:13:00 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 43)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 01:14:53 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 44)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 01:16:03 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 44)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-02-17 21:25:38 --> Cannot add or update a child row: a foreign key constraint fails (`jti_cycling_issi`.`users_groups`, CONSTRAINT `users_groups_group_id_foreign` FOREIGN KEY (`group_id`) REFERENCES `groups` (`id`) ON DELETE CASCADE)
+CRITICAL - 2022-02-17 21:25:38 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 45)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-02-17 21:28:40 --> Cannot add or update a child row: a foreign key constraint fails (`jti_cycling_issi`.`users_groups`, CONSTRAINT `users_groups_group_id_foreign` FOREIGN KEY (`group_id`) REFERENCES `groups` (`id`) ON DELETE CASCADE)
+CRITICAL - 2022-02-17 21:28:40 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 44)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:30:08 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 52)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:31:19 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 52)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:31:37 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 52)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:32:53 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 52)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:33:59 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 52)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:34:32 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 52)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-02-17 21:35:14 --> Cannot add or update a child row: a foreign key constraint fails (`jti_cycling_issi`.`users_groups`, CONSTRAINT `users_groups_group_id_foreign` FOREIGN KEY (`group_id`) REFERENCES `groups` (`id`) ON DELETE CASCADE)
+CRITICAL - 2022-02-17 21:35:14 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 44)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:35:55 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 52)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:37:13 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 53)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:38:40 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 53)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:39:24 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 53)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:39:47 --> Undefined array key "group_id"
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 53)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:40:48 --> Cannot use object of type App\Models\UsersGroups as array
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 21:54:48 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 45)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:55:39 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 45)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 21:58:35 --> Undefined array key 0
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Redirect.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 45)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Redirect->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Redirect))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 22:11:35 --> Class "App\Controllers\ResourceController" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/')
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-17 22:11:55 --> Class "App\Controllers\Controller" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/')
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-17 22:12:24 --> Class "App\Controllers\Controller" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/')
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-17 22:13:10 --> Cannot call constructor
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 22:13:39 --> Undefined property: App\Controllers\Home::$session
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Home.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 10)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 22:14:36 --> Class "App\Controllers\UserModel" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 22:14:52 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 22:15:22 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 22:30:50 --> Invalid code
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Login.php(71): Google\Client->fetchAccessTokenWithAuthCode(NULL)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Login->loginWithGoogle()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 22:41:25 --> Call to a member function insert() on null
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Login->loginWithGoogle()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 22:42:46 --> Call to a member function Insert_user_data() on null
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Login->loginWithGoogle()
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-17 22:46:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Login.php(88): App\Models\Login_model->Insert_user_data(Array)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Login->loginWithGoogle()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-02-17 22:51:54 --> Column 'user_eauth_access_token' cannot be null
+CRITICAL - 2022-02-17 23:25:42 --> Invalid code
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Login.php(72): Google\Client->fetchAccessTokenWithAuthCode(NULL)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Login->loginWithGoogle()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 23:26:20 --> Undefined variable $userdata
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 11)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-17 23:27:13 --> Attempt to read property "id" on array
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 11)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}

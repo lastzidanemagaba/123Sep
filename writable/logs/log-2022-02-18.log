@@ -1,0 +1,328 @@
+CRITICAL - 2022-02-18 01:21:13 --> Undefined property: CodeIgniter\View\View::$request
+#0 D:\xampp\htdocs\CyclingAPI\app\Views\welcome_message.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 2)
+#1 D:\xampp\htdocs\CyclingAPI\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\CyclingAPI\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\CyclingAPI\system\Common.php(1089): CodeIgniter\View\View->render('welcome_message', Array, true)
+#4 D:\xampp\htdocs\CyclingAPI\app\Controllers\Home.php(9): view('welcome_message')
+#5 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-18 01:31:50 --> cURL error 28: Failed to connect to oauth2.googleapis.com port 443: Timed out (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://oauth2.googleapis.com/token
+#0 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(158): GuzzleHttp\Handler\CurlFactory::createRejection(Object(GuzzleHttp\Handler\EasyHandle), Array)
+#1 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\Handler\CurlFactory.php(110): GuzzleHttp\Handler\CurlFactory::finishError(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#2 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\Handler\CurlHandler.php(47): GuzzleHttp\Handler\CurlFactory::finish(Object(GuzzleHttp\Handler\CurlHandler), Object(GuzzleHttp\Handler\EasyHandle), Object(GuzzleHttp\Handler\CurlFactory))
+#3 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(28): GuzzleHttp\Handler\CurlHandler->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#4 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\Handler\Proxy.php(48): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#5 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\PrepareBodyMiddleware.php(64): GuzzleHttp\Handler\Proxy::GuzzleHttp\Handler\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#6 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\Middleware.php(31): GuzzleHttp\PrepareBodyMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#7 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\RedirectMiddleware.php(71): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#8 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\Middleware.php(61): GuzzleHttp\RedirectMiddleware->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#9 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\HandlerStack.php(75): GuzzleHttp\Middleware::GuzzleHttp\{closure}(Object(GuzzleHttp\Psr7\Request), Array)
+#10 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\Client.php(331): GuzzleHttp\HandlerStack->__invoke(Object(GuzzleHttp\Psr7\Request), Array)
+#11 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\Client.php(107): GuzzleHttp\Client->transfer(Object(GuzzleHttp\Psr7\Request), Array)
+#12 D:\xampp\htdocs\CyclingAPI\vendor\guzzlehttp\guzzle\src\Client.php(123): GuzzleHttp\Client->sendAsync(Object(GuzzleHttp\Psr7\Request), Array)
+#13 D:\xampp\htdocs\CyclingAPI\vendor\google\auth\src\HttpHandler\Guzzle6HttpHandler.php(47): GuzzleHttp\Client->send(Object(GuzzleHttp\Psr7\Request), Array)
+#14 D:\xampp\htdocs\CyclingAPI\vendor\google\auth\src\OAuth2.php(535): Google\Auth\HttpHandler\Guzzle6HttpHandler->__invoke(Object(GuzzleHttp\Psr7\Request))
+#15 D:\xampp\htdocs\CyclingAPI\vendor\google\apiclient\src\Client.php(257): Google\Auth\OAuth2->fetchAuthToken(Object(Google\Auth\HttpHandler\Guzzle7HttpHandler))
+#16 D:\xampp\htdocs\CyclingAPI\app\Controllers\Login.php(40): Google\Client->fetchAccessTokenWithAuthCode('4/0AX4XfWjuqNhx...')
+#17 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Login->loginWithGoogle()
+#18 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#19 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#20 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#21 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#22 {main}
+CRITICAL - 2022-02-18 01:34:45 --> Undefined variable $googleService
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Home.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 9)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 21:18:02 --> syntax error, unexpected token "\", expecting "{"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Training')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Training')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 21:19:24 --> syntax error, unexpected variable "$resp", expecting "function" or "const"
+#0 D:\xampp\htdocs\CyclingAPI\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\CyclingAPI\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(4): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(518): include_once('D:\\xampp\\htdocs...')
+#4 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Training')
+#5 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Training')
+#6 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-18 21:20:00 --> Class "App\Controllers\Api_Training_Model" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(803): App\Controllers\APIController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-18 21:34:35 --> Undefined property: App\Controllers\Training::$Api_Trx_model
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 21:34:57 --> Undefined property: App\Controllers\Training::$Api_Trx_model
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 21:53:29 --> Class "App\Controllers\APIController" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(518): include_once()
+#1 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Training')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Training')
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-18 22:02:31 --> syntax error, unexpected token "public"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Auth')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Auth')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 22:02:33 --> syntax error, unexpected token "public"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Auth')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Auth')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 22:03:55 --> syntax error, unexpected token "public"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Auth')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Auth')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 22:03:56 --> syntax error, unexpected token "public"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Auth')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Auth')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 22:03:57 --> syntax error, unexpected token "public"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Auth')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Auth')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 22:03:57 --> syntax error, unexpected token "public"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Auth')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Auth')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 22:03:57 --> syntax error, unexpected token "public"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Auth')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Auth')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 22:03:58 --> syntax error, unexpected token "public"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Auth')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Auth')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 22:03:59 --> syntax error, unexpected token "public"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Auth')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Auth')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 22:03:59 --> syntax error, unexpected token "public"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Auth')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Auth')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 22:04:04 --> syntax error, unexpected token "public"
+#0 D:\xampp\htdocs\CyclingAPI\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Auth')
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Auth')
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-18 22:11:01 --> Call to undefined function App\Controllers\setSession_Outlet()
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(35): App\Controllers\APIController->setRespon(Array, 0)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): App\Controllers\Training->Get()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-18 22:21:41 --> You must set the database table to be used with your query.
+#0 D:\xampp\htdocs\CyclingAPI\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\xampp\htdocs\CyclingAPI\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\xampp\htdocs\CyclingAPI\app\Models\API_Training_Model.php(25): CodeIgniter\Model->__call('select', Array)
+#3 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(16): App\Models\API_Training_Model->List()
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->infoAja()
+#5 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#6 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-18 22:22:17 --> Undefined variable $id
+#0 D:\xampp\htdocs\CyclingAPI\app\Models\API_Training_Model.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 19)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(16): App\Models\API_Training_Model->List()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->infoAja()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-18 22:24:20 --> Class "App\Controllers\Api_Trx_model" not found
+#0 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(803): App\Controllers\APIController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-18 22:26:46 --> Undefined variable $kontenlivedebug
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\APIController.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 118)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(18): App\Controllers\APIController->setRespon(Array, 0)
+#2 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): App\Controllers\Training->GetList()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#5 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-18 22:26:47 --> Undefined variable $kontenlivedebug
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\APIController.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 118)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(18): App\Controllers\APIController->setRespon(Array, 0)
+#2 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): App\Controllers\Training->GetList()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#5 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-18 22:27:01 --> Undefined variable $dev_only_debug_for_test
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\APIController.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 85)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(18): App\Controllers\APIController->setRespon(Array, 0)
+#2 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): App\Controllers\Training->GetList()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#5 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-18 22:27:18 --> Undefined variable $dev_only_debug_for_test
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\APIController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 60)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(18): App\Controllers\APIController->setRespon(Array, 0)
+#2 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): App\Controllers\Training->GetList()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#5 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-18 22:27:19 --> Undefined variable $dev_only_debug_for_test
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\APIController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 60)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(18): App\Controllers\APIController->setRespon(Array, 0)
+#2 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): App\Controllers\Training->GetList()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#5 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-18 22:27:28 --> Undefined variable $kontenlivedebug
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\APIController.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 118)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(18): App\Controllers\APIController->setRespon(Array, 0)
+#2 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): App\Controllers\Training->GetList()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#5 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-18 22:27:29 --> Undefined variable $kontenlivedebug
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\APIController.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 118)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(18): App\Controllers\APIController->setRespon(Array, 0)
+#2 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): App\Controllers\Training->GetList()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#5 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-18 22:27:30 --> Undefined variable $kontenlivedebug
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\APIController.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 118)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(18): App\Controllers\APIController->setRespon(Array, 0)
+#2 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): App\Controllers\Training->GetList()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#5 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-18 22:32:05 --> Undefined variable $isXML
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\APIController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 77)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(18): App\Controllers\APIController->setRespon(Array, 0)
+#2 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): App\Controllers\Training->GetList()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#5 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-02-18 22:45:33 --> Undefined property: App\Controllers\Training::$API_Training_Model
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 16)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): App\Controllers\Training->GetList()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-18 22:45:34 --> Undefined property: App\Controllers\Training::$API_Training_Model
+#0 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 16)
+#1 D:\xampp\htdocs\CyclingAPI\app\Controllers\Training.php(8): App\Controllers\Training->GetList()
+#2 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(825): App\Controllers\Training->index()
+#3 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Training))
+#4 D:\xampp\htdocs\CyclingAPI\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\CyclingAPI\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\xampp\htdocs\CyclingAPI\system\Commands\Server\rewrite.php(43): require_once('D:\\xampp\\htdocs...')
+#7 {main}
